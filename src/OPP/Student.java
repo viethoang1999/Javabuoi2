@@ -36,4 +36,11 @@ public class Student {
         return ("gpa: "+gpa);
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", gpa=" + gpa +
+                '}';
+    }
 }
